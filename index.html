@@ -9,18 +9,23 @@
         <title>Infobulle Simple en JQuery</title>
         <meta name="description" content="Réalisation d'une infobulle simple en JQuery trouvé sur tuto.com">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- My CSS -->
+        <link rel="stylesheet" type="text/css" href="css/myStyle.css">
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
-        <a href="#"><img src="http://static.commentcamarche.net/en.kioskea.net/faq/images/22927-IyYv7lRYmGaFsIcp-s-.png" alt="logo tweeter" width="150" height="150" />
-            <span>
-                <p>followme</p>
-            </span>
-        </a>
-        <a href="#"><img src="http://www.troonfc.com/media/1030/1-facebook-logo.png" alt="logo facebook" width="150" height="150" /></a>
+        <div id="container">
+            <h1>Info bulle simple en JQuery</h1>
+            <p>Dans ce tuto jQuery, nous allons voir qu'il est très simple de créer des infos bulles animées.</p>
+            <div class="menu">
+                <ul>
+                    <li><a href="#" border="none"><img src="http://static.commentcamarche.net/en.kioskea.net/faq/images/22927-IyYv7lRYmGaFsIcp-s-.png" alt="logo tweeter" width="200" height="190" /></a></li>
+                    <li><a href="#" border="none"><img src="http://www.troonfc.com/media/1030/1-facebook-logo.png" alt="logo facebook" width="150" height="160" /></a></li>
+                </ul>
+            </div>
+        </div>
 
         <!-- Script JS -->
         <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
