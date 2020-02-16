@@ -7,4 +7,4 @@ Le lien de la formation ce trouve à cette adresse : <a href="http://fr.tuto.com
 
 <h3>Le rendu final de cette formation</h3>
 <p>/!\ Il sera différent chez moi que ce soit au niveau des images comme pour le CSS qui par exemple j'utilise flexbox</p>
-<img src="http://puu.sh/siQmF/be434d3815.jpg" alt="rendu final" />
+<img src="/infobulle-simple-jquery/screenshot.png" alt="rendu final" />

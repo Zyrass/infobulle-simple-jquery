@@ -1,13 +1,4 @@
-/*
- * -------------------------------------------------------------------------------------------------------------------
- * Auteur Initial :
- * Retouche personnel : Alain GUILLON
- * -------------------------------------------------------------------------------------------------------------------
- * Date dernière modification :
- * -------------------------------------------------------------------------------------------------------------------
- */
-
-$ ( document ).ready(function(){ // Début du code JQUERY
+$ ( document ).ready( function() {
 
     var animeHover = "easeOutBounce";
     var animeOutHover = "jswing";
@@ -16,7 +7,6 @@ $ ( document ).ready(function(){ // Début du code JQUERY
     var animeSpeedOutHover = "300";
 
     $(".menu ul li a").hover(function() {
-
         $(this).next("span").animate({
             opacity : "show",
             top: "0"
@@ -35,7 +25,5 @@ $ ( document ).ready(function(){ // Début du code JQUERY
             duration : animeSpeedOutHover,
             easing : animeOutHover
         })
-    
     });
-
-}); // Fin du code JQUERY
+});
